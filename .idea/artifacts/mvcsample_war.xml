@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="mvcsample:war">
+    <output-path>$PROJECT_DIR$/mvcsample/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>mvcsample</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="mvcsample.war">
+      <element id="artifact" artifact-name="mvcsample:war exploded" />
+    </root>
+  </artifact>
+</component>
